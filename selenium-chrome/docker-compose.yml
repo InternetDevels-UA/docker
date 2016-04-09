@@ -1,0 +1,12 @@
+selenium:
+  image: selenium/standalone-chrome:2.52.0
+  container_name: selenium-chrome
+  restart: always
+  volumes:
+    - /dev/shm:/dev/shm
+  ports:
+    - "4444:4444"
+# Memory limit in megabytes.
+# mem_limit: 2048m
+# CPUs in which container can be executed.
+# cpuset: 0,1
