@@ -1,5 +1,5 @@
-# Selenium standalone with Chrome installed
-## To run this container with docker-compose:
+# Selenium standalone server with Chrome
+## To run this container with docker-compose.yml:
 - copy docker-compose.yml 
 - inside folder with docker-compose.yml run:
 ```bash
