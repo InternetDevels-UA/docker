@@ -1,6 +1,6 @@
 selenium:
   image: selenium/standalone-chrome:2.52.0
-  container_name: selenium-chrome
+  container_name: selenium_chrome
   restart: always
   volumes:
     - /dev/shm:/dev/shm
